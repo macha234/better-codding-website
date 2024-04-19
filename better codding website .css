@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #485563;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29323c, #485563);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29323c, #485563);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: white;
+}
+
+.listItems ul{
+   display: flex;
+    flex-direction: row;
+     list-style-type: none;
+}
+
+.listItems li{
+    margin-left: 10px;
+}
+
+button{
+     /* padding-left: 10px;
+    padding-right:10px ;
+    padding-top: 6px;
+    padding-bottom: 6px; */
+    padding: 8px 18px;
+    border-radius: 6px;
+   border: none;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 80px 80px;
+    width: 950px;
+}
+
+.first h1{
+    margin-left: 20px;
+    font-size: 29px;
+}
+
+.btnGroupSecond{
+    margin-top: 30px;
+}
+
+.bottom{
+    display: flex;
+    margin-top: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom div{
+    margin: 0 60px;
+}
